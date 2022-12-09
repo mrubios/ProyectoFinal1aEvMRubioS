@@ -105,6 +105,7 @@ public class Login extends AppCompatActivity {
                 .build();
         // Nos creamos el GoogleSignIn Client
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+        mGoogleSignInClient.signOut();
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, REQUEST_CODE);
     }
@@ -186,7 +187,6 @@ public class Login extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("Info", "Inicio de la app");
         mFirebaseAnalytics.logEvent("Info", bundle);
-        comprobarLogueo();
     }
 
     @Override

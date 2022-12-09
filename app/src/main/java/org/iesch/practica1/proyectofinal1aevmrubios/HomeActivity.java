@@ -1,8 +1,11 @@
 package org.iesch.practica1.proyectofinal1aevmrubios;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.auth.FirebaseAuth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -35,8 +38,12 @@ public class HomeActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                SharedPreferences preferences= getSharedPreferences("sesion", Context.MODE_PRIVATE);
+                preferences.edit().clear().apply();
+
+                FirebaseAuth.getInstance().signOut();
+//                onBackPressed();
+                finish();
             }
         });
     }
