@@ -13,4 +13,12 @@
     <string name="sobre_la_app">Sobre la app</string>
     <string name="first_fragment_label">fragment_first</string>
     <string name="second_fragment_label">fragment_second</string>
+    <string name="lista">Lista</string>
+    <string name="gimnasios">Gimnasios</string>
+    <string name="id">Id</string>
+    <string name="forma">Forma</string>
+    <string name="nombre">Nombre</string>
+    <string name="ataque">Ataque</string>
+    <string name="defensa">Defensa</string>
+    <string name="stamina">Stamina</string>
 </resources>
