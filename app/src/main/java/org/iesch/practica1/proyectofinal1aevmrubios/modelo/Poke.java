@@ -1,10 +1,13 @@
 package org.iesch.practica1.proyectofinal1aevmrubios.modelo;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Poke {
     private int base_attack;
     private int base_defense;
     private int base_stamina;
     private String form;
+    @SerializedName("pokemon_id")
     private int pokemon_id;
     private String pokemon_name;
 
