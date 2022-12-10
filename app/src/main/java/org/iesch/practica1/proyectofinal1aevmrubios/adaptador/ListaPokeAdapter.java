@@ -25,6 +25,7 @@ public class ListaPokeAdapter extends RecyclerView.Adapter<ListaPokeAdapter.View
         this.dataset = new ArrayList<>();
     }
 
+
     @NonNull
     @Override
     public ListaPokeAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

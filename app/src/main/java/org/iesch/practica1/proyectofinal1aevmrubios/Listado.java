@@ -7,11 +7,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.SearchView;
 
 import org.iesch.practica1.proyectofinal1aevmrubios.adaptador.ListaPokeAdapter;
 import org.iesch.practica1.proyectofinal1aevmrubios.api.PokeapiService;
 import org.iesch.practica1.proyectofinal1aevmrubios.modelo.Poke;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -20,7 +22,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class Listado extends AppCompatActivity {
+public class Listado extends AppCompatActivity{
 
     private Retrofit retrofit;
     private RecyclerView recyclerView;
@@ -52,14 +54,15 @@ public class Listado extends AppCompatActivity {
                 int totalItemCount = layoutManager.getItemCount();
                 int pastVisibleItems = layoutManager.findFirstVisibleItemPosition();
 
+                    if ((visibleItemCount + pastVisibleItems) >= totalItemCount){
+                        Log.i("POKEMON","Llegamos al Final");
+                        obtenerDatos();
+                    }
 
-                Log.i("Pokemon", "Llegamos al final");
-                obtenerDatos();
 
 
             }
         });
-
 
         retrofit = new Retrofit.Builder().baseUrl("https://pogoapi.net")
                 .addConverterFactory(GsonConverterFactory.create()).build();
@@ -90,4 +93,5 @@ public class Listado extends AppCompatActivity {
             }
         });
     }
+
 }

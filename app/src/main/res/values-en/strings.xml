@@ -17,9 +17,10 @@
     <string name="lista">List</string>
     <string name="gimnasios">Gym</string>
     <string name="id">Id</string>
-    <string name="forma">Forma</string>
-    <string name="nombre">Nombre</string>
-    <string name="ataque">Ataque</string>
-    <string name="defensa">Defensa</string>
+    <string name="forma">Form</string>
+    <string name="nombre">Name</string>
+    <string name="ataque">Attack</string>
+    <string name="defensa">Defense</string>
     <string name="stamina">Stamina</string>
+    <string name="filtro">Filter</string>
 </resources>
