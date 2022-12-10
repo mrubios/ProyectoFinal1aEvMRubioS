@@ -6,19 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Listado"
-    android:layout_margin="16dp">
-    <LinearLayout
-        app:layout_constraintVertical_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        tools:ignore="MissingConstraints">
-
-        <SearchView
-            android:id="@+id/search_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="10dp"/>
-    </LinearLayout>
+    android:layout_margin="20dp">
 
     <androidx.recyclerview.widget.RecyclerView
         app:layout_constraintVertical_weight="1"

@@ -55,7 +55,8 @@
         android:layout_height="wrap_content"
         android:text="@string/iniciar_sesi_n_con_google"
         android:textColor="@color/black"
-        android:backgroundTint="@color/white"/>
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/google"/>
 
 
 </LinearLayout>

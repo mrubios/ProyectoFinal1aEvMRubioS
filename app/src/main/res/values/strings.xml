@@ -9,7 +9,8 @@
     <string name="title_activity_home">HomeActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="next">Continua</string>
-    <string name="descripcion">Esta aplicación es una muy básica guía sobre el pokemon go.\n Aquí podrás consultar donde hay gimnasios en Cella, \n Y ver un listado con todos los Pokemon añadidos y sus\n estadisticas</string>
+    <string name="descripcion">Esta aplicación es una muy básica guía sobre el pokemon go.\nAquí podrás consultar donde hay gimnasios en Cella, \nY ver un listado con todos los Pokemon añadidos y sus\nestadisticas\n\n
+    Para navegar por la aplicacion puedes pulsar donde veas una imagen</string>
     <string name="sobre_la_app">Sobre la app</string>
     <string name="first_fragment_label">fragment_first</string>
     <string name="second_fragment_label">fragment_second</string>
