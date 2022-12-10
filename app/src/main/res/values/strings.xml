@@ -23,4 +23,22 @@
     <string name="defensa">Defensa</string>
     <string name="stamina">Stamina</string>
     <string name="filtro">Filtro</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="ayunta">Ayuntamiento</string>
+    <string name="correos">Correos</string>
+    <string name="ermitaAntonio">Ermita San Antonio</string>
+    <string name="skate">SkatePark</string>
+    <string name="casadecultura">Casa de Cultura</string>
+    <string name="fronton">Fronton</string>
+    <string name="pistaFutbol">Pista de futbol</string>
+    <string name="ermitaSebastian">Ermita de San Sebastian</string>
+    <string name="ermitaLorenzo">Ermita del Loreto</string>
+    <string name="parque">Parque</string>
+    <string name="barras">Barras</string>
+    <string name="flores">Mural cerámico de las flores</string>
+    <string name="fuentePlaza">Fuente de la plaza</string>
+    <string name="elCarro">Campo de futbol El Carro</string>
+    <string name="piscina">Piscina municipal</string>
+    <string name="fuente">Fuente de Cella</string>
+    <string name="plazadetoros">Plaza de toros</string>
 </resources>

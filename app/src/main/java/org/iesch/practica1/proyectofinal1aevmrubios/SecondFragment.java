@@ -38,6 +38,10 @@ public class SecondFragment extends Fragment {
             Intent intent = new Intent(this.getContext(), Listado.class);
             startActivity(intent);
         });
+        binding.gimnasios.setOnClickListener(v->{
+            Intent intent = new Intent(this.getContext(), MapsActivity.class);
+            startActivity(intent);
+        });
     }
 
     @Override
